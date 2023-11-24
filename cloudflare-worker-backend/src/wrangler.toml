@@ -1,0 +1,8 @@
+name = "cloudflare-org-dashboard-project-worker"
+type = "webpack"
+
+account_id = "eef6da33f8432f248ce8027d15cf035f"
+workers_dev = true
+zone_id = ""
+compatibility_date = "2023-11-21"
+
