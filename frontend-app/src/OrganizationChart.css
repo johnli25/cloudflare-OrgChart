@@ -1,0 +1,8 @@
+.Node {
+    border: solid 3px red;
+    border-radius: 1px;
+    width: 100px;
+    display: inline-block;
+    font-size: 10px;
+    margin: 5px;
+}

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: auto; /* This will ensure that any horizontal overflow is scrollable */
 }
 
 .App-logo {
@@ -14,14 +15,17 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  min-width: 100vw;
+  width: calc(100vw + 200px);
+  overflow-x: auto; /* This will allow horizontal scrolling if there is overflow */
+  margin-bottom: 25vh;
 }
 
 .App-link {
@@ -35,4 +39,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#orgChart .orgNodeChildGroup .nodeGroupLineVerticalMiddle {
+  border-right: solid 3px blue;
+}
+
+#orgChart .nodeLineBorderTop {
+  border-top: solid 3px red;
 }

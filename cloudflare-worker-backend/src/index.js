@@ -168,6 +168,13 @@ function filterEmployees(organization, reqBodySearchCriteria) {
  */
 async function handleRequest(request) {
   const url = new URL(request.url);
+  response = new Response(/* your response body here */);
+
+  response.headers.set("Access-Control-Allow-Origin", "http://localhost:3000"); // Replace with the actual origin of your React app
+
+  // You can also specify other CORS headers as needed
+  response.headers.set("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+  response.headers.set("Access-Control-Allow-Headers", "Content-Type");
 
   if (url.pathname == "/organization-chart" && request.method == "GET") {
     const organizationData = JSON.stringify(await getOrganizationDataFromCSV(testCSVData));
@@ -175,8 +182,9 @@ async function handleRequest(request) {
       return new Response("Organization data not found", { status: 404 });
     }
     return new Response(organizationData, {
-      headers: { 'content-type': 'application/json' },
+      headers: { 'content-type': 'application/json' , 'Access-Control-Allow-Origin': '*'},
     });
+    return response;
   }
 
   if (url.pathname == "/organization-chart" && request.method == "POST") {
@@ -185,8 +193,9 @@ async function handleRequest(request) {
     var organizationJson = JSON.stringify(getOrganizationDataFromCSV(csvData));
     // await CloudflareOrgDashboardKV.put("organizationData", "test"); // Store in KV
     return new Response(organizationJson, {
-      headers: { 'content-type': 'application/json' }
+      headers: { 'content-type': 'application/json' , 'Access-Control-Allow-Origin': '*'},
     });
+    return response;
   }
 
   if (url.pathname == "/employee" && request.method == "POST") {
@@ -196,9 +205,10 @@ async function handleRequest(request) {
     if (organizationJson.organization){
       matchingEmployees = filterEmployees(organizationJson.organization, requestBodySearchCritera);
     }
-    return new Response(JSON.stringify({ employees: matchingEmployees }), {
-      headers: { 'content-type': 'application/json' }
+    response = new Response(JSON.stringify({ employees: matchingEmployees }), {
+      headers: { 'content-type': 'application/json', 'Access-Control-Allow-Origin': '*'}
     });
+    return response;
   }
 
   if (url.pathname == "/me" && request.method == "GET"){
