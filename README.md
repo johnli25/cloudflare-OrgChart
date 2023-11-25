@@ -6,7 +6,9 @@
 
 Useful links: https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/ 
 
-GitHub link: https://github.com/johnli25/cloudflare-assessment/tree/main 
+GitHub repo link: https://github.com/johnli25/cloudflare-assessment/tree/main 
+
+Application deployed to https://7922e85c.cloudflare-assessment-6fh.pages.dev/ 
 
 This application has also been integrated into and deployed to **Cloudflare Pages and Workers**.
 
