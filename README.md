@@ -12,6 +12,6 @@ This application has also been integrated into and deployed to **Cloudflare Page
 
 (This project is part of Cloudflare's assessment)
 
-**If you have any questions, don't hesitate to reach out to me via LinkedIn or my email: johnwl2@illinois.edu
+**If you have any questions, don't hesitate to reach out to me via LinkedIn or my email: johnwl2@illinois.edu**
 
 Created by John Li
