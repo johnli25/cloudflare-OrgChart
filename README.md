@@ -1,6 +1,6 @@
 # Welcome to the Cloudflare Organization Chart!
 
-### This is a web application that can post, query, and display an entire organization chart or specific parts of it. It can also serve as a great boilerplate/template for more complex and interactive web applications and/or organization charts!
+### This is a web application that can post, query, and display an entire organization chart of employees. It can also serve as a great boilerplate/template for more complex and interactive web applications and organization charts!
 
 ##### Backend built with Node | Frontend built with React
 
@@ -8,8 +8,8 @@ Useful links: https://developers.cloudflare.com/pages/framework-guides/deploy-a-
 
 GitHub repo link: https://github.com/johnli25/cloudflare-assessment/tree/main 
 
-Application deployed to https://7922e85c.cloudflare-assessment-6fh.pages.dev/ 
+This application has also been integrated into and deployed to **Cloudflare Pages and Workers**. Deployed to https://7922e85c.cloudflare-assessment-6fh.pages.dev/ 
 
-This application has also been integrated into and deployed to **Cloudflare Pages and Workers**.
+(This project is part of Cloudflare's assessment)
 
 Created by John Li
