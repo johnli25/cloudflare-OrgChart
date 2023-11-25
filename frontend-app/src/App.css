@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  overflow-x: auto; /* This will ensure that any horizontal overflow is scrollable */
+  overflow-x: auto; /* ensures that any horizontal overflow is scrollable */
 }
 
 .App-logo {
@@ -24,7 +24,7 @@
   font-size: calc(10px + 2vmin);
   min-width: 100vw;
   width: calc(100vw + 200px);
-  overflow-x: auto; /* This will allow horizontal scrolling if there is overflow */
+  overflow-x: auto; /* Allows horizontal scrolling if there is overflow */
   margin-bottom: 25vh;
 }
 

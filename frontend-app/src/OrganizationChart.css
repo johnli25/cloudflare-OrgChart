@@ -5,4 +5,11 @@
     display: inline-block;
     font-size: 10px;
     margin: 5px;
+    cursor: pointer;
 }
+
+.Node-name {
+    font-weight: bold;
+    font-size: larger; 
+}
+  
