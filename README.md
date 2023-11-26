@@ -8,7 +8,7 @@ Useful links: https://developers.cloudflare.com/pages/framework-guides/deploy-a-
 
 GitHub repo link: https://github.com/johnli25/cloudflare-assessment/tree/main 
 
-This application has also been integrated into and deployed to **Cloudflare Pages and Workers**. Deployed to https://7922e85c.cloudflare-assessment-6fh.pages.dev/ 
+This application has also been integrated into and deployed to **Cloudflare Pages and Workers**. Deployed to https://cloudflare-assessment-6fh.pages.dev/ 
 
 (This project is part of Cloudflare's assessment)
 
