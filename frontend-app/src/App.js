@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
-import OrganizationChart from './OrganizationChart';
+import EmployeeNode from './EmployeeNode';
 import OrgChart from 'react-orgchart'; 
 import 'react-orgchart/index.css';
 
@@ -119,9 +119,9 @@ function App() {
                 <h1><b>Organization Chart</b></h1>
                 <h5><i>Click on an employee/box to collapse or uncollapse employees!</i></h5>
             </header>
-            <OrgChart tree={orgChartData}             
+            <OrgChart tree={orgChartData}
             NodeComponent={node => (
-                <OrganizationChart
+                <EmployeeNode
                     node={node}
                     onToggleCollapse={handleToggleCollapse}
                 />
