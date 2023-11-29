@@ -4,14 +4,14 @@
 
 ##### Backend built with Node | Frontend built with React
 
-Useful links: https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/ 
+##### GitHub project repo + files link (click here): https://github.com/johnli25/cloudflare-assessment/tree/main 
 
-GitHub repo link: https://github.com/johnli25/cloudflare-assessment/tree/main 
-
-This application has also been integrated into and deployed to **Cloudflare Pages and Workers**. Deployed to https://cloudflare-assessment-6fh.pages.dev/ 
+###### This application has also been integrated into and deployed to **Cloudflare Pages and Workers**. Deployed to https://cloudflare-assessment-6fh.pages.dev/ 
 
 (This project is part of Cloudflare's assessment)
 
 **If you have any questions, don't hesitate to reach out to me via LinkedIn or my email: johnwl2@illinois.edu**
+
+Useful links: https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/ 
 
 Created by John Li
