@@ -12,6 +12,6 @@
 
 **If you have any questions, don't hesitate to reach out to me via LinkedIn or my email: johnwl2@illinois.edu**
 
-####### Useful links: https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/ 
+###### Useful links: https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/ 
 
 Created by John Li
